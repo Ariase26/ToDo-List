@@ -8,18 +8,9 @@
     <properties/>
     <border type="none"/>
     <children>
-      <component id="89d99" class="javax.swing.JLabel" binding="timeLabel">
-        <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <font size="20" style="1"/>
-          <text value="Time"/>
-        </properties>
-      </component>
       <component id="f0986" class="javax.swing.JLabel" binding="dateLabel">
         <constraints>
-          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
           <font size="20" style="1"/>
@@ -28,21 +19,17 @@
       </component>
       <component id="26ed2" class="javax.swing.JList" binding="todoList">
         <constraints>
-          <grid row="2" column="0" row-span="2" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+          <grid row="1" column="0" row-span="2" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="50"/>
           </grid>
         </constraints>
         <properties>
-          <model>
-            <item value="Study (12/03/23)"/>
-            <item value="LAAG!! (12/08/23)"/>
-            <item value="Finals (12/15/23)"/>
-          </model>
+          <model/>
         </properties>
       </component>
       <component id="356fd" class="javax.swing.JTextArea" binding="notepadText">
         <constraints>
-          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="50"/>
           </grid>
         </constraints>
@@ -50,24 +37,39 @@
           <text value=""/>
         </properties>
       </component>
-      <component id="73648" class="javax.swing.JButton" binding="addTaskButton">
+      <component id="e03b" class="javax.swing.JList" binding="priorTodoList">
         <constraints>
-          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
-        </constraints>
-        <properties>
-          <text value="Add Task"/>
-        </properties>
-      </component>
-      <component id="e03b" class="javax.swing.JList" binding="prioTodoList">
-        <constraints>
-          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="2" anchor="0" fill="3" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="50"/>
           </grid>
         </constraints>
         <properties>
-          <model>
-            <item value="Laba LOL (12/02/23)"/>
-          </model>
+          <model/>
+        </properties>
+      </component>
+      <component id="75bad" class="javax.swing.JButton" binding="btDelete">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Delete"/>
+        </properties>
+      </component>
+      <component id="73648" class="javax.swing.JButton" binding="btAdd">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Add"/>
+        </properties>
+      </component>
+      <component id="89d99" class="javax.swing.JLabel" binding="timeLabel">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20" style="1"/>
+          <text value="Time"/>
         </properties>
       </component>
     </children>
