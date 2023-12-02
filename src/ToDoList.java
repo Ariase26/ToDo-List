@@ -25,6 +25,7 @@ public class ToDoList extends JFrame{
 
         timer.start();
 
+        //add task pop up
         addTaskButton.addActionListener(e -> {
             TaskDialog task = new TaskDialog();
 
